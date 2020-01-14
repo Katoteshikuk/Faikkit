@@ -1,52 +1,51 @@
 # Check out the default messages: https://bitbucket.org/Prunt/restrictedcreative/wiki/Default%20messages
 # Messages explanation: https://bitbucket.org/Prunt/restrictedcreative/wiki/Home#markdown-header-messages
-prefix: '&2&lCreative > '
-reloaded: '&aConfig reloaded!'
-no-permission: '&cYou don''t have enough permissions to do that!'
-no-console: '&cThis command can only be used in-game.'
-not-found: '&cPlayer %player% is not online!'
+prefix: '&6&lCreative > '
+reloaded: '&4Configul a fost reincarcat!'
+no-permission: '&4Nu ai permisiunile necesare sa folosesti aceasta comanda!'
+no-console: '&4Comanda aceasta poata fi folosita doar in joc.'
+not-found: '&4Player-ul %player% nu este momentan online!'
 disabled:
-  general: '&cYou can''t do that in creative mode.'
-  interact: '&cYou can''t do that, because that was modified in creative mode.'
-  region: '&cYou can''t do that outside the allowed region.'
-  creature: '&cYou can''t do that, because a part of the creature was placed in creative
-    mode.'
+  general: '&4Nu ai voie sa faci asta in modul creative.'
+  interact: '&4Nu poti face aceasta actiune, Pentru ca a fost modificat in modul Creative.'
+  region: '&4Nu poti face asta in afara regiuni.'
+  creature: '&4Nu poti face asta, din cauza ca mobul sau animalul pus este din modul creative.'
 database:
-  load: '&ePlease wait! Loading data from database...'
-  loaded: '&eLoaded %blocks% blocks in %chunks% chunks from database!'
-  save: '&eSaving data to database...'
-  added: '&eAdded %blocks% new blocks to database.'
-  removed: '&eDeleted %blocks% old blocks from database.'
-  deleted: '&eDeleted database. Full restart is required for changes to take effect.'
-  done: '&aDone! Took %mills%ms'
+  load: '&4Va rugam sa asteptati! Incarcam datele din DataBase...'
+  loaded: '&4Au fost incarcate %blocks% blocuri in %chunks% chunkurile acestea din database!'
+  save: '&4Se salveaza datele in database...'
+  added: '&4&eAu fost adaugate %blocks% noi blockuri in database.'
+  removed: '&4Au fost sterse %blocks% block-uri vechi din database.'
+  deleted: '&4Database-ul a fost deletat. Trebuie dat restart neaparat ca sa se poata lua in considerare noile modificari'
+  done: '&4Gata! Toata treaba asta a durat %mills%ms'
 gamemodes:
   creative:
-    me: '&aSwitched to creative mode!'
-    other: '&aSwitched %player% to creative mode!'
+    me: '&4Modificat in Modul Creative!'
+    other: '&4Modul Player-ului %player% a fost schimbat in Creative!'
   survival:
-    me: '&aSwitched to survival mode!'
-    other: '&aSwitched %player% to survival mode!'
+    me: '&4Modificat in Modul Survival!'
+    other: '&4Modul Player-ului %player% a fost schimbat in Survival!'
   adventure:
-    me: '&aSwitched to adventure mode!'
-    other: '&aSwitched %player% to adventure mode!'
+    me: '&4Modificat in Modul Adventure!'
+    other: '&4Modul Player-ului %player% a fost schimbat in Aventura!'
   spectator:
-    me: '&aSwitched to spectator mode!'
-    other: '&aSwitched %player% to spectator mode!'
+    me: '&4Modificat in Modul de Spectator!'
+    other: '&aModul Player-ului %player% a fost schimbat in Spectator!'
 usage:
-  block: '&cCorrect usage: /rc block <add|remove|info|stats>'
+  block: '&2Folosirea Corecta: /rc block <add|remove|info|stats>'
 block:
   add:
-    add: '&aRight-click a block/entity you want to add to the database. Type "/rc
-      block add" again to cancel.'
-    added: '&aAdded %material% to the database!'
+    add: '&4Apasa Click Dreapta pe un block/entitate care vrei sa adaugi in database. Scrie "/rc
+      add block" Din nou ca s-a anulezi comanda.'
+    added: '&4Adaugare %material% in database!'
   remove:
-    remove: '&aRight-click a block/entity you want to remove from the database. Type
-      "/rc block remove" again to cancel.'
-    removed: '&aRemoved %material% from the database!'
+    remove: '&4Apasa Click dreapta pe un block/entitate ca sa il scoti din database. Scrie
+      "/rc block remove" Din nou ca sa anulezi comanda.'
+    removed: '&4material-ul  %material% a fost scos din database!'
   info:
-    info: '&aRight-click a block/entity you want to know more about. Type "/rc block
-      info" again to cancel.'
-    'true': '&aBlock/entity %material% was placed in creative mode!'
-    'false': '&aBlock/entity %material% was not placed in creative mode.'
-  stats: '&eTotal creative placed blocks: %total%'
-  cancel: '&cCancelled!'
+    info: '&4Apasa Click dreapta pe un block/entitate ca sa primesti mai multe informatii. Scrie "/rc block
+      info" Din nou ca s-a anulezi comanda.'
+    'true': '&4Block-ul/entitatea %material% a fost puse cu modul Creative!'
+    'false': '&aBlock-ul/entitatea %material% nu a fost pusa cu modul Creative.'
+  stats: '&4Totalul blockurilor puse in modul Creative: %total%'
+  cancel: '&5&lAnulat!'
