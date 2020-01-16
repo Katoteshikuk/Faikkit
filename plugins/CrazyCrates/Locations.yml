@@ -1,16 +1,16 @@
 Locations:
-  '2':
-    Crate: speciala
-    World: savesdi
-    X: 1228
-    Y: 66
-    Z: 795
-  '1':
-    Crate: magica
-    World: savesdi
-    X: 1231
-    Y: 65
-    Z: 792
+ # '2':
+ #   Crate: speciala
+ #   World: savesdi
+ #   X: 1228
+ #   Y: 66
+ #   Z: 795
+ # '1':
+ #   Crate: magica
+ #   World: savesdi
+ #   X: 1231
+ #   Y: 65
+ #   Z: 792
   '3':
     Crate: faikkit
     World: savesdi
@@ -20,15 +20,15 @@ Locations:
   '4':
     Crate: vote
     World: savesdi
-    X: 1239
-    Y: 65
-    Z: 792
-  '5':
-    Crate: holiday
-    World: savesdi
-    X: 1231
-    Y: 65
-    Z: 784
+    X: -207
+    Y: 148
+    Z: -11
+ # '5':
+ #  Crate: holiday
+ # World: savesdi
+ # X: 1231
+ #  Y: 65
+ #  Z: 784
   '6':
     Crate: event
     World: savesdi
@@ -36,18 +36,18 @@ Locations:
     Y: 65
     Z: 778
   '7':
-    Crate: Christmas
-    World: savesdi
-    X: 1258
-    Y: 67
-    Z: 779
-  '14':
-    Crate: Christmas
-    World: hub
-    X: 1258
-    Y: 65
-    Z: 785
-  '8':
+ #   Crate: Christmas
+ #   World: savesdi
+ #   X: 1258
+ #   Y: 67
+ #   Z: 779
+ # '14':
+ #   Crate: Christmas
+ #   World: hub
+ #   X: 1258
+ #   Y: 65
+ #   Z: 785
+ # '8':
     Crate: vote
     World: spawn
     X: -208
@@ -56,18 +56,18 @@ Locations:
   '12':
     Crate: supreme
     World: spawn
-    X: -205
+    X: -204
     Y: 149
-    Z: -12
+    Z: -11
   '13':
     Crate: faikkit
     World: spawn
-    X: -202
+    X: -201
     Y: 149
-    Z: -12
+    Z: -11
   '9':
     Crate: Warrior
     World: build
-    X: 214
-    Y: 4
-    Z: 101
+    X: -197
+    Y: 149
+    Z: -9
